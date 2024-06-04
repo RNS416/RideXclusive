@@ -1,0 +1,106 @@
+body{
+   margin: auto;
+   background-image: url(../images/carpool-1.jpg);
+   background-size: cover;
+   color: #323643;
+   font-size: 16px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.img1{
+    width:50px;
+    height: 50px;
+    align-self:center;
+    margin-right: 5px;
+
+
+}
+.logo {
+    background-color: #142d4c;
+    text-align: center; 
+    margin-bottom: 0;   
+    border: solid 1px;
+}
+h1 {
+    font-family: Roboto Condnsed, sans-serif;
+    font-weight: 800;
+    font-size: 70px;
+    background-image: -webkit-linear-gradient(90deg,#787878 0%, #b5b5b5 25%, #e3e3e3 50%, #b5b5b5 75%, #787878 100%);
+    background-clip: text;
+    color: transparent;
+    margin: 0;
+}
+.heading{
+    margin-top: 0;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: sans-serif;
+    background-image: -webkit-linear-gradient(90deg, #787878 0%, #b5b5b5 25%, #e3e3e3 50%, #b5b5b5 75%, #787878 100% );
+    background-clip: text;
+    color: transparent;
+}
+.sub-headings{
+    text-align: center;
+    display:grid;
+    justify-self: center;
+    background-image: -webkit-linear-gradient(15deg, #13547a 0%, #80d0c7 100%);    
+    margin-top: 0.5px;
+    line-height: .5px;    
+}
+h3{
+    font-weight: 300;
+    font-size: 16px;
+    font-family: sans-serif;
+    color:#9fd3c7;
+}
+#cards{
+    display: flex;
+    padding: 1%;
+    opacity: .96;
+    
+}
+.benefits{
+    width: 25%;
+    margin: 5px;
+    border-radius: 7px;
+    background-color: #51e2f5;
+    background-size: cover;
+    padding: 2%;
+}
+.affordable{
+    width: 25%;
+    background-color: #5dacbd;
+    margin: 5px;
+    border-radius: 7px;
+    padding: 2%;
+}
+.works{
+    width: 25%;
+    background-color: #edf756;
+    margin:5px;
+    border-radius: 7px;
+    padding: 2%;
+}
+.fees{
+    width: 25%;
+    background-color:#ffa8B6;
+    margin:5px;
+    border-radius: 7px;
+    padding: 2%;
+}
+h4{
+    text-align: center;
+    font-weight:700;
+    font-size: 16px;
+    color: #323643;
+  
+}
+footer{
+    text-align: center;
+}
+.foot{
+    color:  ;
+    align-items: center;
+}
